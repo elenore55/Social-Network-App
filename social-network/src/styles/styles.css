@@ -1,0 +1,109 @@
+html, body {
+    height: 100%;
+    min-height: 100vh;
+}
+
+textarea[class*="non-resizable"] {
+    height: 120px;
+    resize: none;
+}
+
+*[class*="not-selected"] {
+    background-color: #754285 !important;
+}
+
+.light-icon {
+    color: #f1edf2;
+}
+
+#cover {
+    height: 250px; 
+    width: 100%; 
+    max-width: 100%;
+}
+
+#profile-picture {
+    width: 200px; 
+    height: 200px;
+    border: 7px solid white;
+    background-color: white; 
+    position: absolute;
+    left: 42%; 
+    top: 40%;
+}
+
+#btn-edit-profile {
+    position: absolute;
+    right: 5%;
+    top: 70%;
+}
+
+#lbl-name-surname {
+    font-size: 2em;
+    margin-top: 5%;
+}
+
+#lbl-name-surname-md {
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    color: black;
+}
+
+#lbl-username {
+    font-size: 1.5em;
+}
+
+*[class*="profile-bg"] {
+    background-color: #faf8ed;
+    height: auto !important;
+    min-height: 100vh;
+}
+
+.profile-link {
+    color: black;
+    cursor: pointer;
+}
+
+.profile-link:hover, #lbl-name-surname-md:hover {
+    color: #323299
+}
+
+.user-profile-post {
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.user-profile-list {
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+
+#friends-badge, #req-sent-badge {
+    position: absolute;
+    right: 5%;
+    top: 250px;
+    padding: 15px 25px;
+    font-size: 1.1em;
+    color: black;
+}
+
+#btn-add-friend, #respond {
+    position: absolute;
+    right: 5%;
+    top: 250px;
+    font-weight: bold;
+    font-size: 1em;
+}
+	
+span[class*="friendship-status-badge"] {
+    font-size: 0.9em;
+}
+
+*[class*="login-bg"] {
+    height: auto !important;
+    min-height: 100vh;
+    background-color: #fce76a;
+}

@@ -1,0 +1,55 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(81e74d8b-52bc-4648-9ffd-3492b13211c9), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 17 Scala sources to C:\Users\Milica\Desktop\Fakultet\Praksa\SocialNetwork\target\scala-2.13\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Milica\Desktop\Fakultet\Praksa\SocialNetwork\app\services\validation\CommentValidationService.scala:15:12: adaptation of an empty argument list by inserting () is deprecated: this is unlikely to be what you want[0m
+[0m[[0m[31merror[0m] [0m[0m        signature: Right.apply[A, B](value: B): scala.util.Right[A,B][0m
+[0m[[0m[31merror[0m] [0m[0m  given arguments: <none>[0m
+[0m[[0m[31merror[0m] [0m[0m after adaptation: Right((): Unit)[0m
+[0m[[0m[31merror[0m] [0m[0m      Right()[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Milica\Desktop\Fakultet\Praksa\SocialNetwork\app\services\validation\CommentValidationService.scala:27:12: adaptation of an empty argument list by inserting () is deprecated: this is unlikely to be what you want[0m
+[0m[[0m[31merror[0m] [0m[0m        signature: Right.apply[A, B](value: B): scala.util.Right[A,B][0m
+[0m[[0m[31merror[0m] [0m[0m  given arguments: <none>[0m
+[0m[[0m[31merror[0m] [0m[0m after adaptation: Right((): Unit)[0m
+[0m[[0m[31merror[0m] [0m[0m      Right()[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Milica\Desktop\Fakultet\Praksa\SocialNetwork\app\services\validation\FriendshipRequestValidationService.scala:10:12: adaptation of an empty argument list by inserting () is deprecated: this is unlikely to be what you want[0m
+[0m[[0m[31merror[0m] [0m[0m        signature: Right.apply[A, B](value: B): scala.util.Right[A,B][0m
+[0m[[0m[31merror[0m] [0m[0m  given arguments: <none>[0m
+[0m[[0m[31merror[0m] [0m[0m after adaptation: Right((): Unit)[0m
+[0m[[0m[31merror[0m] [0m[0m      Right()[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Milica\Desktop\Fakultet\Praksa\SocialNetwork\app\services\validation\PostValidationService.scala:15:12: adaptation of an empty argument list by inserting () is deprecated: this is unlikely to be what you want[0m
+[0m[[0m[31merror[0m] [0m[0m        signature: Right.apply[A, B](value: B): scala.util.Right[A,B][0m
+[0m[[0m[31merror[0m] [0m[0m  given arguments: <none>[0m
+[0m[[0m[31merror[0m] [0m[0m after adaptation: Right((): Unit)[0m
+[0m[[0m[31merror[0m] [0m[0m      Right()[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Milica\Desktop\Fakultet\Praksa\SocialNetwork\app\services\validation\PostValidationService.scala:27:12: adaptation of an empty argument list by inserting () is deprecated: this is unlikely to be what you want[0m
+[0m[[0m[31merror[0m] [0m[0m        signature: Right.apply[A, B](value: B): scala.util.Right[A,B][0m
+[0m[[0m[31merror[0m] [0m[0m  given arguments: <none>[0m
+[0m[[0m[31merror[0m] [0m[0m after adaptation: Right((): Unit)[0m
+[0m[[0m[31merror[0m] [0m[0m      Right()[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Milica\Desktop\Fakultet\Praksa\SocialNetwork\app\services\validation\UserDataValidationService.scala:17:12: adaptation of an empty argument list by inserting () is deprecated: this is unlikely to be what you want[0m
+[0m[[0m[31merror[0m] [0m[0m        signature: Right.apply[A, B](value: B): scala.util.Right[A,B][0m
+[0m[[0m[31merror[0m] [0m[0m  given arguments: <none>[0m
+[0m[[0m[31merror[0m] [0m[0m after adaptation: Right((): Unit)[0m
+[0m[[0m[31merror[0m] [0m[0m      Right()[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Milica\Desktop\Fakultet\Praksa\SocialNetwork\app\services\validation\UserDataValidationService.scala:34:12: adaptation of an empty argument list by inserting () is deprecated: this is unlikely to be what you want[0m
+[0m[[0m[31merror[0m] [0m[0m        signature: Right.apply[A, B](value: B): scala.util.Right[A,B][0m
+[0m[[0m[31merror[0m] [0m[0m  given arguments: <none>[0m
+[0m[[0m[31merror[0m] [0m[0m after adaptation: Right((): Unit)[0m
+[0m[[0m[31merror[0m] [0m[0m      Right()[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn the last 81 seconds, 6.044 (7.5%) were spent in GC. [Heap: 0.86GB free of 0.95GB, max 0.95GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 160 s (02:40), completed 07-Aug-2022 12:11:38[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

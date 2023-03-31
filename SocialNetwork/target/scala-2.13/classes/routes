@@ -1,0 +1,56 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+# An example controller showing a sample home page
+GET           /                                    controllers.HomeController.index()
+GET           /explore                             controllers.HomeController.explore()
+GET           /tutorial                            controllers.HomeController.tutorial()
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET           /assets/*file                        controllers.Assets.versioned(path="/public", file: Asset)
+
++nocsrf
+POST          /posts                               controllers.PostController.create
+GET           /posts/me                            controllers.PostController.getMyPosts
+GET           /posts/:id                           controllers.PostController.getUsersPosts(id: Long)
+GET           /posts                               controllers.PostController.getFriendsPosts
++nocsrf
+PATCH         /posts                               controllers.PostController.update
++nocsrf
+DELETE        /posts/:id                           controllers.PostController.remove(id: Long)
+
+GET           /users/friends                       controllers.UserController.getUsersFriends
+GET           /users/me/profile                    controllers.UserController.getMyData
+GET           /users/:id/profile                   controllers.UserController.getOtherUserData(id: Long)
++nocsrf
+PATCH         /users/me/profile                    controllers.UserController.updateUserData()
+GET           /users/search/:term                  controllers.UserController.search(term: String)
+
++nocsrf
+POST          /reactions/like/:postId              controllers.ReactionController.like(postId: Long)
++nocsrf
+POST          /reactions/dislike/:postId           controllers.ReactionController.dislike(postId: Long)
++nocsrf
+DELETE        /reactions/:postId                   controllers.ReactionController.removeReaction(postId: Long)
+
++nocsrf
+POST          /auth/login                          controllers.LoginController.login()
+POST          /auth/register                       controllers.LoginController.register()
+
+GET           /friends/requests/received           controllers.FriendshipRequestController.getReceivedRequests
+GET           /friends/requests/sent               controllers.FriendshipRequestController.getSentRequests
++nocsrf
+POST          /friends/requests                    controllers.FriendshipRequestController.create
++nocsrf
+POST          /friends/requests/:id/:status        controllers.FriendshipRequestController.changeStatus(id: Long, status: String)
+
++nocsrf
+POST          /comments                            controllers.CommentController.create
+GET           /comments/:postId                    controllers.CommentController.getComments(postId: Long)
++nocsrf
+PATCH         /comments                            controllers.CommentController.update
++nocsrf
+DELETE        /comments/:id                        controllers.CommentController.remove(id: Long)
